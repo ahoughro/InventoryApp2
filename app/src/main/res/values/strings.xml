@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Inventory</string>
+
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Inventory Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Inventory</string>
+
+    <!-- Title for the activity to add a new inventory item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_inventory">Add New Inventory</string>
+
+    <!-- Title for the activity to edit and inventory item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_inventory">Edit Inventory</string>
+
+    <!-- Label for editor menu option to save inventory and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current inventory [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of inventory attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for supplier information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplierName">Supplier Name</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_inventory_name">Inventory Item Name</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_inventory_price">Price</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_inventory_quantity">Quantity</string>
+
+    <!-- Text hint for Supplier name field in the editor -->
+    <string name="hint_inventory_supplierName">Supplier Name</string>
+
+    <!-- Text hint for Supplier phone field in the editor -->
+    <string name="hint_inventory_supplierPhone">Supplier Phone</string>
+
+
+<!-- PULLING IN FROM OTHER CODE   -->
+
+
+        <!-- Title for the activity to add new inventory [CHAR LIMIT=20] -->
+        <string name="editor_activity_title_new_item">Add an Item</string>
+
+        <!-- Title for the activity to edit an existing inventory item  -->
+        <string name="editor_activity_title_edit_item">Edit an Item</string>
+
+        <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+        <string name="category_measurement">Measurement</string>
+
+        <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+        <string name="hint_item_name">Name</string>
+
+
+        <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+        <string name="hint_pet_weight">Weight</string>
+
+        <!-- Units for weight of the pet (kilograms) [CHAR LIMIT=5] -->
+        <string name="unit_pet_weight">kg</string>
+
+
+        <!-- Toast message in editor when new item has been successfully inserted [CHAR LIMIT=NONE] -->
+        <string name="editor_insert_item_successful">Item saved</string>
+
+        <!-- Toast message in editor when new item has failed to be inserted [CHAR LIMIT=NONE] -->
+        <string name="editor_insert_item_failed">Error with saving item</string>
+
+        <!--ADDED for Part 2 of the Inventory APP -->
+        <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+        <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+        <!-- Subtitle text for the empty view that prompts the user to add an item [CHAR LIMIT=50] -->
+        <string name="empty_view_subtitle_text">Get started by adding an item</string>
+
+        <!-- Toast message in editor when current pet was successfully updated [CHAR LIMIT=NONE] -->
+        <string name="editor_update_inventory_successful">Inventory updated</string>
+
+        <!-- Toast message in editor when current pet has failed to be updated [CHAR LIMIT=NONE] -->
+        <string name="editor_update_inventory_failed">Error with updating inventory</string>
+
+        <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+        <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+        <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+        <string name="discard">Discard</string>
+
+        <!-- Dialog button text for the option to keep editing the current item [CHAR LIMIT=20] -->
+        <string name="keep_editing">Keep Editing</string>
+
+        <!-- Toast message in editor when current item was successfully deleted [CHAR LIMIT=NONE] -->
+        <string name="editor_delete_item_successful">Item deleted</string>
+        <!-- Toast message in editor when current pet has failed to be deleted [CHAR LIMIT=NONE] -->
+        <string name="editor_delete_item_failed">Error with deleting item</string>
+        <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+        <string name="delete_dialog_msg">Delete this item?</string>
+        <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+        <string name="delete">Delete</string>
+        <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+        <string name="cancel">Cancel</string>
+
+        <!-- Label for the item's supplier if the supplier is unknown [CHAR LIMIT=20] -->
+        <string name="unknown_supplier">Unknown supplier</string>
+
+    <!-- Label for the item's supplier Phone if the supplier phone is unknown [CHAR LIMIT=20] -->
+    <string name="unknown_phone">Unknown phone</string>
+
+    <!-- Label for the item's price if the priceis unknown [CHAR LIMIT=20] -->
+    <string name="unknown_price">Unknown price</string>
+
+</resources>
