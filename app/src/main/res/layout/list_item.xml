@@ -31,9 +31,10 @@
             android:textColor="#AEB6BD" />
 
 <Button
+    android:id="@+id/makeSale"
     android:layout_width="148dp"
     android:layout_height="48dp"
     android:text="Make Sale"
-    android:onClick="makeSale"/>
+    android:focusable="false"/>
 
 </LinearLayout>

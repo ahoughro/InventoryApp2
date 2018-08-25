@@ -169,8 +169,6 @@ public void callSupplier(View view){
     startActivity(callIntent);
 }
 
-
-
     /**
      * Get user input from editor and save new inventory info into the DB
      * Gets called when user hits the save button
